@@ -1,0 +1,502 @@
+html{
+    font-size:100%;
+  }
+  
+body{
+  color:#333;
+  font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  margin:0;
+}
+
+img{
+  max-width:100%;
+  box-shadow: 2px 2px 10px rgba(47, 56, 48, 0.25);
+}
+
+.wrapper{
+  margin:0 auto;
+}
+
+
+/* ------ヘッダ-------- */
+
+
+header{
+  background-color:rgba(0, 250, 154, 0.884);
+  border-bottom: 1px solid rgba(0, 250, 154, 0.884);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  padding: 34px 30px;
+  font-weight: bold;
+  margin:0;
+}
+
+.header-logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo h1{
+  margin:0;
+  font-size: 3rem;
+}
+
+.header-list{
+  padding:0;
+  display:flex;
+  align-items:center;
+  width:100%;
+  list-style: none;
+}
+
+.header-list a{
+  text-decoration: none;
+  color:#333;
+  font-size: 1.25rem;
+}
+
+.header-list a:hover{
+  opacity:0.7;
+}
+
+.header-list li{
+  margin-left:20px;
+}
+
+.main{
+  text-align:center;
+  background: -moz-linear-gradient(top,rgba(0, 250, 154, 0.884),#fff);
+  background: -webkit-linear-gradient(top,rgba(0, 250, 154, 0.884),#fff);
+  background: linear-gradient(to bottom,rgba(0, 250, 154, 0.884),#fff);
+}
+
+
+.mainprofile{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.mainprofile img{
+  margin-top: 30px;
+  width:50%;
+  box-shadow: 2px 2px 10px rgba(47, 56, 48, 0.25);
+}
+
+
+.mainprofile ul{
+  margin:0;
+  padding:0;
+}
+
+.mainprofile li{
+  list-style:none;
+  margin: 10px auto;
+  font-size:1.25rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bold;
+}
+
+span{
+  color:limegreen
+}
+
+.snsicon{
+  margin:30px auto 50px;
+}
+
+.snsicon li:hover{
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.snsicon ul{
+  list-style:none;
+  text-align: center;
+  padding:0;
+}
+
+.snsicon li{
+  display:inline-block;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.snsicon img{
+  box-shadow: 0 0 0;
+}
+
+
+
+/* --------芸歴プロフィールです-------- */
+
+
+.geireki{
+  text-align: center;
+  background-size: cover;
+  background-position:center top;
+  background-repeat: no-repeat;
+  padding:20px;
+  color:rgba(255, 255, 255, 0.89);
+}
+
+#home{
+  background-image: url(../image/102B59DE-DB0A-4D23-B884-098AF20C8957.JPG);
+  min-height:100vh;
+  box-shadow:0 0 20px #2f5167;
+}
+
+.geireki h1{
+  margin:1.5rem 0;
+  border-bottom:4px solid purple;
+  font-size:32px;
+  text-shadow: 2px 2px 3px silver;
+}
+
+.geirekimain h2{
+  font-size: 20px;
+}
+
+.geirekimain ul{
+  margin:0;
+  padding:0 20px;
+}
+
+.geirekimain li{
+  list-style:none;
+  line-height: 1.8em;
+  font-size: 1rem;
+}
+
+
+
+
+/* ------出演動画------- */
+
+.video{
+  margin-top:100px;
+}
+
+.video h2{
+  margin:0;
+  padding:0px 0px 10px 100px;
+  border-bottom:2px solid purple;
+  font-size:26px;
+  text-shadow: 2px 2px 3px silver;
+}
+
+.videolink{
+  background: -moz-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: -webkit-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: linear-gradient(to bottom,rgb(209, 97, 209),#fff);
+  margin:0px;
+  width:100%;
+}
+
+.videolink ul{
+  display:flex;
+  align-items:center;
+  margin:0;
+  padding:0;
+}
+
+.videolink li{
+  list-style:none;
+  margin:35px auto;
+  padding:0 10px;
+}
+
+.videolink p{
+  margin:0;
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  margin-top:8px;
+}
+
+.videolink img:hover{
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  transition:0.2s;
+}
+
+
+
+/* -------広告ページ-------- */
+
+.advertisment{
+  margin-top: 100px;
+}
+.advertisment h2{
+  margin:0;
+  padding:10px 0px 10px 100px;
+  border-bottom:2px solid purple;
+  font-size:26px;
+  text-shadow: 2px 2px 3px silver;
+}
+
+.koukoku{
+  background: -moz-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: -webkit-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: linear-gradient(to bottom,rgb(209, 97, 209),#fff);
+}
+
+.koukoku ul{
+  display:flex;
+  align-items: center;
+  margin:0;
+  padding:0;
+}
+
+.koukoku li{
+  list-style:none;
+  margin:35px auto;
+  padding:0 10px;
+}
+
+
+/* ピアノ演奏動画 */
+
+.pianocover{
+   margin-top: 100px;
+}
+
+.pianocover h2{
+  margin:0;
+  padding:10px 0px 10px 100px;
+  border-bottom:2px solid purple;
+  font-size:26px;
+  text-shadow: 2px 2px 3px silver;
+}
+
+.musicvideo{ 
+  background: -moz-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: -webkit-linear-gradient(top,rgb(209, 97, 209),#fff);
+  background: linear-gradient(to bottom,rgb(209, 97, 209),#fff);
+}
+
+.musicvideo ul{
+  margin:0 auto;
+  display:flex;
+  padding:0;
+}
+
+.musicvideo li{
+  list-style:none;
+  margin:35px auto;
+  padding:0 10px;
+}
+
+.musicvideo p{
+  margin:0;
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  margin-top:8px;
+}
+
+.musicvideo img:hover{
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    transition:0.2s;
+}
+  
+
+
+/* 問い合せフォーム */
+
+
+.contact-form{
+  margin-top:100px;
+}
+
+.section-title{
+  margin:0;
+  padding:10px 0px 10px 100px;
+  border-bottom:2px solid purple;
+  font-size:26px;
+  text-shadow: 2px 2px 3px silver;
+}
+
+.contact-form ul{
+  width:360px;
+  margin:0;
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.contact-form p{
+  margin:50px 0px 10px 0px;
+  align-items: center;
+}
+
+.input, textarea{
+  padding:10px;
+  width:100%;
+  height:6rem;
+  max-width:240px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+
+.contact-submit{
+  background:#dee7ec;
+  color:#889eab;
+}
+
+#btn{
+  cursor:pointer;
+  box-shadow:2px 2px 5px #2f5167;
+}
+
+#btn:hover{
+  opacity:0.9;
+}
+
+#btn:active {
+  box-shadow:0 0.5px 0.5px 0 #2f5167;
+  margin-top:1px;
+  margin-bottom: -1px;
+}
+
+.sentou {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: mediumspringgreen;
+  border: solid 0.5px mediumspringgreen;
+  border-radius: 3px;
+  transition: .4s;
+  margin:40px 0 40px 5px;
+}
+
+.sentou:hover {
+  background: mediumspringgreen;
+  color: white;
+}
+
+
+/* footer */
+
+footer{
+  padding:64px 20px;
+  background:#373B44;
+  color:#73C8A9;
+  text-align: center;
+  display:flex;
+}
+
+footer h1{
+  float:left;
+  margin:0;
+  font-size: 32px;
+}
+
+footer ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+  margin-left:auto;
+  font-size: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color:#73C8A9;
+
+}
+
+
+
+@media (max-width:600px){
+
+  .none{display:none}
+
+
+  .header-list{
+    font-size: 1rem;
+    margin-top:10px;
+  }
+  
+  .header-list li{
+    margin:0 20px;
+  }
+
+  .header-logo{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mainprofile img{
+    max-width:100%;
+  }
+
+  .geirekimain h1{
+    font-size:1.85rem;
+  }
+
+  .geirekimain h2{
+    font-size: 1rem;
+    margin:1.5rem 0 0.85rem;
+  }
+
+  .geirekimain li{
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+  }
+
+  .video h2{
+    padding-left:30px;
+  }
+
+  .videolink ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .koukoku ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advertisment h2{
+    padding-left:30px;
+  }
+
+  .pianocover h2{
+    padding-left:30px;
+  }
+
+  .musicvideo ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .musicvideo li{
+    width:80%;
+  }
+
+  #contact{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-title{
+    padding-left: 30px;
+  }
+
+  footer{
+    padding:32px 10px;
+  }
+
+  footer h1{
+    font-size: 1rem;
+  }
+
+  footer ul{
+    font-size: 0.875rem;
+  }
+}
